@@ -4,7 +4,7 @@
 ## 📌 Overview  
 This project performs a comparative analysis of **Data Mining Techniques** for **Water Quality Prediction** using three popular machine learning models: **KNN**, **Decision Tree**, and **MLP (Multi-layer Perceptron)**. The dataset used is sourced from **Kaggle**, aiming to predict water quality based on various water parameters.
 
-The study evaluates the performance of each model based on **accuracy** and **processing time**.
+The study evaluates the performance of each model based on **accuracy**.
 
 | Model | Accuracy | 
 |-------|----------|
@@ -22,13 +22,6 @@ The study evaluates the performance of each model based on **accuracy** and **pr
 📈 **Comparison Metrics:**  
 - **Accuracy** 📊  
 
-**Key Findings:**  
-- **MLP achieved the highest accuracy** (92%) among the models tested.  
-- **Decision Tree** performed well in terms of processing time, outperforming MLP.  
-- **KNN** showed competitive accuracy but was slower compared to Decision Tree.
-
----
-
 ## 🔄 **Data Preprocessing**  
 ✔ Collected dataset from **Kaggle**  
 ✔ Cleaned the dataset by handling missing values and irrelevant features  
@@ -40,7 +33,3 @@ The study evaluates the performance of each model based on **accuracy** and **pr
 1️⃣ **Data Preparation** – Data cleaning and transformation  
 2️⃣ **Model Training** – Training KNN, Decision Tree, and MLP models  
 3️⃣ **Model Evaluation** – Comparing accuracy and processing time  
-4️⃣ **Model Application** – Predicting water quality based on input features  
-
----
-
